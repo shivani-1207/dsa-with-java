@@ -15,7 +15,7 @@ public class classroom {
                     return false;
                 }
 
-                if((s.peek() =='(' && ch == ')') //()
+                if((s.peek() =='(' && ch == ')') 
                    || (s.peek() == '{' && ch == '}')  // {}
                    || (s.peek() == '['  && ch == ']') ){ //[]
                        s.pop();
